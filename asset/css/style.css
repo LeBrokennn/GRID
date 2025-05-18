@@ -12,6 +12,7 @@ body {
     }
 
     .container {
+    flex: 1;
       display: flex;
       padding: 1rem;
     }
@@ -91,4 +92,33 @@ body {
 
 .product button:hover {
   background-color: #16324b;
+}
+footer {
+  background-color: #1c3f5c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 361px;
+
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ffffffcc;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
